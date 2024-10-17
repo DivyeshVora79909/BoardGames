@@ -1,5 +1,64 @@
+# Explicitly tell which files to ignore and ! which to keep
 unoFinal.ipynb
 LudoFinal.py
 LudoFinal.ipynb
 LudoClient.py
 ludo.ipynb
+!ludo_cli.py
+!snakeNLadders_cli.py
+!uno_cli.py
+
+# Ignore everything except .gitignore
+# *
+
+# Except Python files
+# !*.py
+
+# Explicitly include README and LICENSE files
+!README.md
+!LICENSE
+!LICENSE.md
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# C extensions
+*.o
+*.lo
+*.la
+*.al
+*.gch
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Optionally, ignore __pycache__ directories
+__pycache__/
+
+# Optionally, ignore virtual environments
+venv/
+env/
+ENV/
